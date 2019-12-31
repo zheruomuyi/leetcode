@@ -1,4 +1,4 @@
-package test.com.zheruomuyi.sort;
+package com.zheruomuyi.sort;
 
 import java.util.Scanner;
 
