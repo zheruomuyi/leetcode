@@ -22,7 +22,7 @@ public class HeapSort {
     }
 
     private static void heapSort(int[] list) {
-        for (int i = list.length; i > 0; i--) {
+        for (int i = list.length-1; i > 0; i--) {
             buildMaxHeap(list,i);
             int x = list[i];
             list[i] = list[0];
