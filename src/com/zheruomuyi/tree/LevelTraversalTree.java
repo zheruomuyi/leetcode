@@ -10,7 +10,7 @@ public class LevelTraversalTree {
         String[] tree = str.split(" ");
         int[] levelOrder = new int[tree.length];
         for (int i = 0; i < levelOrder.length; i++) {
-            if (tree[i].equals("null")){
+            if ("null".equals(tree[i])){
                 levelOrder[i] = -1;
             }else {
                 levelOrder[i] = Integer.parseInt(tree[i]);
