@@ -17,6 +17,27 @@ public class Input {
         }
     }
 
+
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        String str = sc.nextLine().toString();
+//        int[] dis = getIntArr(str);
+//
+//        str = sc.nextLine().toString();
+//        int[] eng = getIntArr(str);
+//
+//        int maxDis = sc.nextInt();
+//    }
+//
+//    static int[] getIntArr(String str){
+//        String[] arr  = str.split(" ");
+//        int[] b = new int[arr.length];
+//        for(int j = 0; j<b.length;j++) {
+//            b[j] = Integer.parseInt(arr[j]);
+//        }
+//        return b;
+//    }
+
     //输入带有数字和字符串
 
     //public static void main(String[] args) {
