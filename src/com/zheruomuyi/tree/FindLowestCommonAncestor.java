@@ -5,23 +5,25 @@ import java.util.*;
 public class FindLowestCommonAncestor {
     public static void main(String[] args) {
         String str = "-1 0 3 -2 4 null null 8";
-        str = str.trim();
-        String[] tree = str.split(" ");
-        int[] levelOrder = new int[tree.length];
-        for (int i = 0; i < levelOrder.length; i++) {
-            if (tree[i].equals("null")){
-                levelOrder[i] = -1;
-            }else {
-                levelOrder[i] = Integer.parseInt(tree[i]);
-            }
-        }
-        Solution solution = new Solution();
-        TreeNode root =   solution.buildBinaryTree(levelOrder);
-        solution.prePrintBinaryTree(root);
-        System.out.println();
-        TreeNode p = root.left.left.left;
-        TreeNode q = root.left.right;
-        System.out.println(solution.lowestCommonAncestor(root,p,q).val);
+        System.out.println(str.substring(0,str.indexOf("a")));
+//        str = str.trim();
+//        String[] tree = str.split(" ");
+//        int[] levelOrder = new int[tree.length];
+//        for (int i = 0; i < levelOrder.length; i++) {
+//            if (tree[i].equals("null")){
+//                levelOrder[i] = -1;
+//            }else {
+//                levelOrder[i] = Integer.parseInt(tree[i]);
+//            }
+//        }
+//        Solution solution = new Solution();
+//        TreeNode root =   solution.buildBinaryTree(levelOrder);
+//        solution.prePrintBinaryTree(root);
+//        System.out.println();
+//        TreeNode p = root.left.left.left;
+//        TreeNode q = root.left.right;
+//        System.out.println(solution.lowestCommonAncestor(root,p,q).val);
+
     }
 
     static class Solution{
